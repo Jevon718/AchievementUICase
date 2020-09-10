@@ -13,6 +13,8 @@
 		0A569CD42509306900AC8749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A569CD32509306900AC8749 /* Assets.xcassets */; };
 		0A569CD72509306900AC8749 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A569CD62509306900AC8749 /* Preview Assets.xcassets */; };
 		0A569CDA2509306900AC8749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A569CD82509306900AC8749 /* LaunchScreen.storyboard */; };
+		0A569CE22509312500AC8749 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A569CE12509312500AC8749 /* Colors.xcassets */; };
+		0A569CE42509982400AC8749 /* WhiteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A569CE32509982400AC8749 /* WhiteCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0A569CD62509306900AC8749 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A569CD92509306900AC8749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A569CDB2509306900AC8749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A569CE12509312500AC8749 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		0A569CE32509982400AC8749 /* WhiteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		0A569CC12509306000AC8749 = {
 			isa = PBXGroup;
 			children = (
+				0A569CE32509982400AC8749 /* WhiteCard.swift */,
 				0A569CCC2509306000AC8749 /* AchievementUICase */,
 				0A569CCB2509306000AC8749 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				0A569CCF2509306000AC8749 /* SceneDelegate.swift */,
 				0A569CD12509306000AC8749 /* ContentView.swift */,
 				0A569CD32509306900AC8749 /* Assets.xcassets */,
+				0A569CE12509312500AC8749 /* Colors.xcassets */,
 				0A569CD82509306900AC8749 /* LaunchScreen.storyboard */,
 				0A569CDB2509306900AC8749 /* Info.plist */,
 				0A569CD52509306900AC8749 /* Preview Content */,
@@ -134,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A569CDA2509306900AC8749 /* LaunchScreen.storyboard in Resources */,
+				0A569CE22509312500AC8749 /* Colors.xcassets in Resources */,
 				0A569CD72509306900AC8749 /* Preview Assets.xcassets in Resources */,
 				0A569CD42509306900AC8749 /* Assets.xcassets in Resources */,
 			);
@@ -147,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A569CCE2509306000AC8749 /* AppDelegate.swift in Sources */,
+				0A569CE42509982400AC8749 /* WhiteCard.swift in Sources */,
 				0A569CD02509306000AC8749 /* SceneDelegate.swift in Sources */,
 				0A569CD22509306000AC8749 /* ContentView.swift in Sources */,
 			);
